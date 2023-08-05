@@ -74,7 +74,7 @@ class LetterCounter:
             elif counter[char] == most_common_count:
                 most_common_letters.append(char)
 
-        # Handle 'no alpha chars found'
+        # Handle 'no alphabetical chars found'
         if most_common_count == 0:
             return [0, None]
 
